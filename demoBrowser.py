@@ -4,5 +4,5 @@ service_obj = Service() # service is responsible for start & close of driver
 print('service : ', service_obj)
 driver = webdriver.Chrome(service=service_obj)
 print('driver : ',driver)
-driver.get('https://www.facebook.com/')
+driver.get('https://www.facebook.com')
 
